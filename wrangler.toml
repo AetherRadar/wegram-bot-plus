@@ -1,7 +1,6 @@
 name = "wegram-bot-go-plus"
 main = "handler/telegram.go"
 compatibility_date = "2023-10-02"
-usage_model = "bundled"
 compatibility_flags = ["golang"]
 
 [vars]
