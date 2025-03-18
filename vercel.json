@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.go", "use": "@vercel/go" }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api" }
+  ],
+  "env": {
+    "PREFIX": "public"
+  }
+}

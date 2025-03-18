@@ -1,0 +1,11 @@
+name = "open-wegram-bot-go"
+main = "worker.go"
+compatibility_date = "2023-10-02"
+usage_model = "bundled"
+compatibility_flags = ["golang"]
+
+[vars]
+PREFIX = "public"
+
+[env.production]
+workers_dev = false
