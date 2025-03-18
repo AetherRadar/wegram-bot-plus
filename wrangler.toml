@@ -1,5 +1,5 @@
-name = "open-wegram-bot-go"
-main = "worker.go"
+name = "wegram-bot-go-plus"
+main = "telegram.go"
 compatibility_date = "2023-10-02"
 usage_model = "bundled"
 compatibility_flags = ["golang"]
